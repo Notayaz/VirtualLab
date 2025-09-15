@@ -50,9 +50,12 @@ const Homepage: React.FC<HomepageProps> = ({ onNavigate }) => {
               <span>Start Experimenting</span>
               <ArrowRight size={20} />
             </button>
-            <button className="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-full border border-white/20 transition-all duration-300 backdrop-blur-sm">
-              Watch Demo
-            </button>
+            <a
+              href="https://team1-landing.vercel.app/"
+              className="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-full border border-white/20 transition-all duration-300 backdrop-blur-sm text-center"
+            >
+              Home
+            </a>
           </div>
         </div>
         
